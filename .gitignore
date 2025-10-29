@@ -1,0 +1,85 @@
+# ------------------------------
+# Node.js / Vite / Frontend & Backend
+# ------------------------------
+
+.venv/
+
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+backend/dist/
+build/
+.next/
+out/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Dependency caches
+.npm/
+.yarn/
+.pnpm-store/
+
+# Coverage / test output
+coverage/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Mac system files
+Icon?
+._*
+
+# ------------------------------
+# Optional: If using TypeScript
+# ------------------------------
+*.tsbuildinfo
+
+# ------------------------------
+# Optional: If using Docker
+# ------------------------------
+docker-compose.override.yml
+.docker/
+.dockerignore
+
+# ------------------------------
+# Optional: If using GitHub Actions
+# ------------------------------
+.github/workflows/*.yml.old
+
+# ------------------------------
+# Optional: If using Vite specifically
+# ------------------------------
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
